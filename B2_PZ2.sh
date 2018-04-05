@@ -1,9 +1,10 @@
 while [[ "$choice" != 4 ]]; do
-  echo "Zadej možnost:"
+  echo "Zadej možnost"
   echo "1. možnost"
   echo "2. možnost"
   echo "3. možnost"
   echo "4. konec"
+  printf "Možnost: "
 read choice
 
 case $choice in
